@@ -1,0 +1,38 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvMineral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mineral"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:textColor="@android:color/black"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvWatering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/watering"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</ScrollView>

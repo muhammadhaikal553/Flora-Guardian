@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "632765013694",
+    "project_id": "florapedia",
+    "storage_bucket": "florapedia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632765013694:android:76e39e0edff2c06089c8ef",
+        "android_client_info": {
+          "package_name": "com.example.florapedia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANAwUrkJb7DSVY5nAgZqqazn7i6pXXqoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

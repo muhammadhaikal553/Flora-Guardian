@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Florapedia</string>
+    <string name="logo">Logo Flora Guardian</string>
+    <string name="image_welcome">Welcome Image</string>
+    <string name="text_welcome">Preserve nature with Florapedia! 🌱</string>
+    <string name="welcome">Welcome</string>
+    <string name="benefit_one">🌿  Explore the diversity of flora effortlessly.</string>
+    <string name="benefit_two">🔍  Identify rare plants around you.</string>
+    <string name="benefit_three">💚  Join the conservation effort for our
+      environment.</string>
+    <string name="button_login">Login</string>
+    <string name="button_register">Register</string>
+    <string name="username_hint">Username</string>
+    <string name="email_hint">Email</string>
+    <string name="login_text">Login</string>
+    <string name="register_text">Register</string>
+    <string name="password_hint">Password</string>
+    <string name="text_register">Already have an account?</string>
+    <string name="login_here">Login here</string>
+    <string name="username">Username</string>
+    <string name="greeting">Hello👋 </string>
+    <string name="search_hint">Cari Tanaman</string>
+    <string name="recent">Recent Scan</string>
+    <string name="view">view all</string>
+    <string name="plant_image">Image Plant</string>
+    <string name="plant_name">Name</string>
+    <string name="plant_classification">Plant Classification</string>
+    <string name="label">label</string>
+    <string name="favorite">My Favorites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- content profile -->
+    <string name="title_profile">Flora Guardian: A Mobile App for Protected Flora Identification and Conservation</string>
+    <string name="description_profile">Application that could accurately identify and provide information about protected flora. We identified the limitations of existing applications and the need for a user-friendly and engaging platform. With Flora Guardian, addresses and monitors threats to flora species sustainability, to promote conservation awareness and action.</string>
+
+    <string name="upload">Unggah</string>
+    <string name="scanner">Scan</string>
+    <string name="floating">Favorite</string>
+    <string name="email_custom">Email tidak valid</string>
+    <string name="watering">Watering</string>
+    <string name="mineral">Mineral</string>
+    <string name="plant_family">Nama Famili</string>
+    <string name="empty_message">Data Favorit Kosong</string>
+
+</resources>

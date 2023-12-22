@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FloraGuardian" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_brown</item>
+        <item name="colorPrimaryVariant">@color/brown</item>
+        <item name="android:textColorPrimary">@color/black</item>
+
+    </style>
+
+    <style name="Theme.FloraGuardian" parent="Base.Theme.FloraGuardian" />
+
+    <style name="Theme.FloraGuardian.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FloraGuardian.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="searchViewStyle">@style/Widget.AppCompat.SearchView</style>
+
+</resources>

@@ -1,0 +1,115 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_brown"
+    tools:context=".ui.welcome.WelcomeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_welcome"
+            android:textColor="@android:color/black"
+            android:textSize="48sp"
+            android:padding="35dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/image_welcome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcomeText"
+            android:src="@drawable/image_welcome_2" />
+
+        <LinearLayout
+            android:id="@+id/textLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:background="@drawable/welcome_shape"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/textWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginBottom="25dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/welcome"/>
+
+            <TextView
+                android:id="@+id/textBenefitOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/benefit_one"/>
+
+            <TextView
+                android:id="@+id/textBenefitTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/benefit_two"/>
+
+            <TextView
+                android:id="@+id/textBenefitThree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/benefit_three"/>
+
+            <LinearLayout
+                android:id="@+id/buttonLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/textLinearLayout"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <Button
+                    android:id="@+id/buttonLogin"
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/button_login"/>
+
+                <Button
+                    android:id="@+id/buttonRegister"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/button_register"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
