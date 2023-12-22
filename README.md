@@ -21,6 +21,7 @@ flora-guardian-app/
   |-- docs/ (API documentation, architecture diagrams)
   |-- tests/ (unit and integration tests)
   |-- README.md (Overall project details and instructions)
+  
 4. Replication Steps:
 
 To replicate the development steps and build your own version of Flora Guardian, follow these instructions:
@@ -31,6 +32,7 @@ Basic understanding of Git and command line tools.
 Knowledge of backend technologies like Python/Flask (for API server).
 Frontend development skills with React (for web app).
 Mobile app development experience with Flutter (for Android and iOS).
+
 B. Steps:
 
 Clone the Git repository: https://github.com/muhammadhaikal553/Florapedia
@@ -38,6 +40,7 @@ Set up development environments: Follow the instructions in each subdirectory's 
 Run the application: Once the environments are set up, run the respective commands according to the README.md in each subdirectory to start the API server, web app, and mobile app.
 Explore the code: Review the codebase to understand the implementation details of each component.
 Customize and modify: Feel free to adapt and modify the code to suit your specific needs and add additional features to the application.
+
 5. Contributing:
 
 We welcome contributions from the community! If you have ideas for improvements, bug fixes, or new features, you can submit pull requests to the relevant subdirectories in the Git repository.
